@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/chalkboard-drawing/static/css/main.b61b8801.chunk.css",
+    "main.js": "/chalkboard-drawing/static/js/main.8105f848.chunk.js",
+    "main.js.map": "/chalkboard-drawing/static/js/main.8105f848.chunk.js.map",
+    "runtime~main.js": "/chalkboard-drawing/static/js/runtime~main.24d010c0.js",
+    "runtime~main.js.map": "/chalkboard-drawing/static/js/runtime~main.24d010c0.js.map",
+    "static/js/2.ad43cf9a.chunk.js": "/chalkboard-drawing/static/js/2.ad43cf9a.chunk.js",
+    "static/js/2.ad43cf9a.chunk.js.map": "/chalkboard-drawing/static/js/2.ad43cf9a.chunk.js.map",
+    "index.html": "/chalkboard-drawing/index.html",
+    "precache-manifest.58c00e53bf025adab114a23a3ba9d49f.js": "/chalkboard-drawing/precache-manifest.58c00e53bf025adab114a23a3ba9d49f.js",
+    "service-worker.js": "/chalkboard-drawing/service-worker.js",
+    "static/css/main.b61b8801.chunk.css.map": "/chalkboard-drawing/static/css/main.b61b8801.chunk.css.map",
+    "static/media/eraser-variant.svg": "/chalkboard-drawing/static/media/eraser-variant.0c77842f.svg"
+  }
+}
