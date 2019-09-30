@@ -1,33 +1,84 @@
-.App {
-  text-align: center;
+body {
+  font-family: 'Roboto Condensed', serif;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;  
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
-  pointer-events: none;
+canvas {
+  display: block;
+  background-color: #131313;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.main {
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.heading {
+    padding: 10px 20px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+.colour-guide {
+  margin: 20px 40px;
+  max-width: 235px;
+}
+
+h5 {
+  margin-bottom: 10px;
+}
+
+.colourButton {
+  padding: 15px;
+  border-radius: 50%;
+  margin: 5px 1px;
+}
+    .colour-1 {
+        background-color: #FFFFFF;
+    }
+    .colour-2 {
+        background-color: #F0C987;
+    }
+    .colour-3 {
+        background-color: #acc7dc;
+    }
+    .colour-4 {
+        background-color: #bfe2ca;
+    }
+    .colour-5 {
+        background-color: #f48b52;
+    }
+    .colour-6 {
+        background-color: #d6d6d6;
+    }
+    .colour-7 {
+        background-color: #EE92C2;
+    }
+    
+.weightSelect {
+    width: 240px;
+}
+
+.weightInput {
+    width: 42px;
+}
+
+.weightButton {
+  padding: 5px 10px;
+  border-radius: 8px;
+  font-size: 15px;
+  font-weight: bold;
+  margin: 2px;
+}
+
+@media (max-width: 992px) {
+
+  .main {
+    display: grid;
   }
-  to {
-    transform: rotate(360deg);
+
+  .colour-guide {
+    margin: 20px auto; 
   }
+
 }
